@@ -1,3 +1,4 @@
-TimerTracker/bin
+bin
 org.eclipse.jdt.core.prefs
-TimerTracker/gen
+gen
+.metadata

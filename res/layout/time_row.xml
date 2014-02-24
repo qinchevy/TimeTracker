@@ -10,7 +10,7 @@
     android:paddingRight="10dp"
     android:paddingTop="20dp" >
 
-    <TextureView
+    <TextView
         android:id="@+id/lap_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:text="Lap 1" />
     
-    <TextureView
+    <TextView
         android:id="@+id/lap_time"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

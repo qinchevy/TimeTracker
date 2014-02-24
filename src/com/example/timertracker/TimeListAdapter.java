@@ -19,7 +19,7 @@ public class TimeListAdapter extends ArrayAdapter<Long> {
 		View view = convertView;
 		
 		if (view == null) {
-			view = LayoutInflater.from(getContext()).inflate(R.layout.time_row, parent);
+			view = LayoutInflater.from(getContext()).inflate(R.layout.time_row, null);
 		} 
 		
 		long time = getItem(position);
